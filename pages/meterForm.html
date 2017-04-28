@@ -370,49 +370,49 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Cosumer Registration</h1>
+                    <h1 class="page-header">Meter Registration</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
-            <div float="center" class="row">
+            <div class="row">
                 <div class="col-lg-8">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             
                         </div>
-                        <div  class="panel-body">
+                        <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-8">
                                 
-                                <form action='addConsumer.php' method='POST' role="form">
+                                <form action='addMeter.php' method='POST' role="form">
+                                        <div class="form-group">
+                                            <label>Meter Id</label>
+                                            <input name="meterId" id="meterId" placeholder="Meter Id" class="form-control">
+                                            <p class="help-block"></p>
+                                        </div>
                                         <div class="form-group">
                                             <label>Consumer Id</label>
                                             <input name="consumerId" id="consumerId" placeholder="Consumer Id" class="form-control">
                                             <p class="help-block"></p>
                                         </div>
                                         <div class="form-group">
-                                            <label>Consumer Name</label>
-                                            <input name="name" id="name" placeholder="Name" class="form-control">
+                                            <label>Start Date</label>
+                                            <input name="startDate" type="date" id="startDate" placeholder="Start Date" class="form-control">
                                             <p class="help-block"></p>
                                         </div>
                                         <div class="form-group">
-                                            <label>Address</label>
-                                            <input name="address"  id="address" placeholder="Address" class="form-control">
+                                            <label>Password</label>
+                                            <input name="password"  id="password" placeholder="Password" class="form-control">
                                             <p class="help-block"></p>
                                         </div>
                                         <div class="form-group">
-                                            <label>City</label>
-                                            <input name="city" id="city" placeholder="City" class="form-control">
-                                            <p class="help-block"></p>
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Registration Date</label>
-                                            <input name="registrationDate" type="date" id="registrationDate" placeholder="Registration Date" class="form-control">
+                                            <label>Confirm Password</label>
+                                            <input name="password"  id="password" placeholder="Password" class="form-control">
                                             <p class="help-block"></p>
                                         </div>
                                          <!--<button type="submit" value="submit" class="btn btn-success">Submit</button>-->
-                                         <input type="submit" class="btn btn-glass btn-success" name="submit" id="submit" value="submit">
+                                         <input type="submit" name="submit" class="btn btn-glass btn-success"  id="submit" value="submit">
                                 </form>
                                 </div>
                                
